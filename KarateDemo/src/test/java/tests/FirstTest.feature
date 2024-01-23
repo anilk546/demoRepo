@@ -10,4 +10,3 @@ Feature: The karate framework
     given url 'https://reqres.in/api/users?page=2'
     when method GET
     then print response
-
